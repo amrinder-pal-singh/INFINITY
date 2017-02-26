@@ -9,7 +9,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{3DD91E0C-AC44-4668-81B5-8FA25E48502B}</ProjectGuid>
+    <ProjectGuid>{33121559-C404-4497-B7C9-099B094A0E24}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -276,6 +276,16 @@
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\INFINITY.Core\INFINITY.Core.csproj">
+      <Project>{e4972433-8d20-4c7a-a404-0a01518ace9f}</Project>
+      <Name>INFINITY.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\INFINITY.Infrastructure\INFINITY.Infrastructure.csproj">
+      <Project>{028764e7-9909-442e-afa3-cacfe2baee3f}</Project>
+      <Name>INFINITY.Infrastructure</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
